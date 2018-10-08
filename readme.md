@@ -58,3 +58,18 @@ fase siguiente:
 
 - Validacion: Proceso de evaluacion del software al final del proceso de desarrollo para asegurar el cumplimiento de las necesidades del cliente.
 - Verificacion: Se comprueba que el software cumple los requisitos funcionales y no funcionales de su especificación
+
+### MODELOS ITERATIVOS O POR PROTOTIPOS
+
+**El Modelo de prototipos**. En Ingeniería de software pertenece a los modelos de desarrollo evolutivo. El prototipo debe ser construido en poco tiempo, usando los programas adecuados y no se debe utilizar muchos recursos.
+
+El diseño rápido se centra en una representación de aquellos aspectos del software que serán visibles para el cliente o el usuario final. Este diseño conduce a la construcción de un prototipo, el cual es evaluado por el cliente para una retroalimentación; gracias a ésta se refinan los requisitos del software que se desarrollará. La interacción ocurre cuando el prototipo se ajusta para satisfacer las necesidades del cliente. Esto permite que al mismo tiempo el desarrollador entienda mejor lo que se debe hacer y el cliente vea resultados a corto plazo.
+#### ETAPAS
+-   Comunicación
+-   Plan rápido.
+-   Modelado, diseño rápido
+-   Construcción del Prototipo
+-   Desarrollo, entrega y retroalimentación
+-   Entrega del desarrollo final
+
+![enter image description here](https://image.slidesharecdn.com/modelosdeciclodevida-170803125713/95/modelos-de-ciclo-de-vida-del-software-21-638.jpg?cb=1501765417)
