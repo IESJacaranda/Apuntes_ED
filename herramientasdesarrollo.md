@@ -10,3 +10,4 @@ Es un Software que traduce un programa escrito en un lenguaje de programación d
 
 Tras compilar primero hace un archivo en lenguaje ensamblador y luego lo termina de compilar haciéndolo en lenguaje maquina y este es leído por cualquier ordenador. (((Repasar para comprobar si esta bien)))
 
+hola
