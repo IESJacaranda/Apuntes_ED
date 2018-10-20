@@ -1,6 +1,6 @@
 # HERRAMIENTAS DE DESARROLLO
 
-##Para que sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?
+## Para que sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?
 
 **¿Para que sirve un compilador?**
 
@@ -8,7 +8,16 @@ Es un Software que traduce un programa escrito en un lenguaje de programación d
 
 **Tipo de archivo tras compilar**
 
-Tras compilar primero hace un archivo en lenguaje ensamblador y luego lo termina de compilar haciéndolo en lenguaje maquina y este es leído por cualquier ordenador. (((Repasar para comprobar si esta bien)))
+Tras compilar primero hace un archivo en lenguaje ensamblador y luego lo termina de compilar haciéndolo en lenguaje maquina, segun el modo en que se compile (si es un sistema de 32 o 64 bits y del sistema operativo) el archivo sera leido por unas maquinas u 
+otras.
 
-hola
-fgdsf
+## ¿Para que sirve un enlazador? ¿Qué tipo de archivo obtenemos tras enlazar?
+
+**¿Para que sirve un enlazador?**
+Es un programa que toma los objetos generados en los primeros pasos del proceso de compilacion, la informacion de todos los recursos necesarios (bibliotecas), quita aquellos recursos que no necesita y enlaza el codigo objeto con su biblioteca, con lo que pruduce 
+un fichero ejecutable o una biblioteca.
+
+**Tipo de archivo que genera tras enlazar**
+Tras enlazar las bibliotecas el archivo que optenemos es un fichero ejecutable, donde se hallan enlazadas las bibliotecas. Generalmente, son archivos con la extension EXE o COM,si los han de ejecutar computadoras con sistema operativo windows o con bits de marca 
+que trae linusx para ser ejecutado.
+El beneficio de tener el código ejecutable, es que se puede saber que la compilación fue realizada correctamente y que el programa, si no tiene errores de manejo, puede funcionar correctamente, porque está libre de errores de variables, signos y demás.
