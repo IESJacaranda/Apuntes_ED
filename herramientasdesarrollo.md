@@ -34,6 +34,56 @@ El interprete leer los archivos pero no crea ninguno resultante.
 ## Explica cada uno de los siguientes conceptos e indica la relación entre ellos.
 
 -   Código fuente: El código fuente de un programa o software es un conjunto de lineas de texto con los pasos que debe seguir la computadora para ejecutar dicho programa. Dicho programa esta escrito en un lenguaje de programación.
--   Código objeto. Se llama código objeto al código que resulta de la compilación del código fuente 
--   código binario
+-   Código objeto. Se llama código objeto al código que resulta de la compilación del código fuente.
+-   código binario. El código binario es el sistema numérico usado para la representación de textos, o procesadores de instrucciones de computadora, utilizando el sistema binario (sistema numérico de dos dígitos, o _bit el "0" /cerrado/ y el "1" /abierto/).
 
+
+##  ¿Qué tipo de código es el bytecode generado por el compilador de Java?
+
+El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera recibir, para posteriormente ser compiladas a lenguaje de máquina, mediante un compilador JIT  a la hora de su ejecución. Usualmente es el resultado de utilizar un compilador del Lenguaje de programación (como javac), pero puede ser generado desde otros compiladores.
+
+## Ejecuta el programa "Hola mundo" en los siguientes lenguajes:
+
+-   bash ( #!/bin/bash
+  echo "Hola mundo" )
+  
+-   python ( print "Hola Mundo" )
+
+-   php (  <?php echo 'Hola Mundo!'; ?> )
+
+-   javascript (nodejs) ( //Caso write()
+document.write("Hola Mundo!");
+//Caso alert()
+alert("Hola Mundo!");
+//Caso console.log()
+console.log("Hola Mundo!");)
+
+-   c (   #include <stdio.h>
+int main(void)
+{
+ printf("¡Hola, mundo!");
+}   )
+-   c++  ( #include <iostream>
+using namespace std;
+int main()
+{
+   cout << "¡Hola, mundo!" << endl;
+   return 0;
+}
+-   java class ( HolaMundo
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hola Mundo")
+    }
+}    )
+-   ruby (  puts "Hola Mundo" )
+-   go ( package main
+import "fmt"
+func main() {
+    fmt.Println("hello world")
+}  )
+-   rust ( fn main() {
+    println("¡Hola, mundo!");
+} )
+-   lisp (  (format t "¡Hola, mundo!") )
