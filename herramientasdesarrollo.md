@@ -87,3 +87,34 @@ func main() {
     println("¡Hola, mundo!");
 } )
 -   lisp (  (format t "¡Hola, mundo!") )
+
+
+ejercicio 3 
+
+
+## Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.
+
+-   bash: interpretado
+-   python: interpretado
+-   php: interpretado
+-   javascript: interpretado
+
+
+
+ejercicio 4
+
+
+## Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:
+
+-   bash: extensión .sh 
+-   python: extensión .py
+-   php: extensión .php
+-   javascript extensión .js
+-   c extensión .exe
+-   c++ extensión .cpp
+-   java extensión .java
+-   ensamblador extensión .asm
+-   ruby extensión .rb
+-   go extensión .go
+-   rust  extensión .rust
+-   lisp extensión .lisp
