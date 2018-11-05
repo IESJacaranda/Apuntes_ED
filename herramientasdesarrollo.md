@@ -212,7 +212,7 @@ clisp
 3.  Para salir del intérprete pulsamos CTRL+D.
 
 
-ENSAMBLADOR (NASM): Interpretado.
+ENSAMBLADOR (NASM): Compilado.
 
 1.  Editamos archivo **hola.asm**
   section .data
